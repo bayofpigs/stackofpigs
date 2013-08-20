@@ -1,4 +1,14 @@
 StackOfPigs::Application.routes.draw do
+  root 'static_pages#home'
+  match '/about', to: 'static_pages#about', via: 'get'
+  match '/projects', to: 'static_pages#projects', via: 'get'
+  match '/resume', to: 'static_pages#resume', via: 'get'
+ 
+  #get "static_pages/home"
+  #get "static_pages/resume"
+  #get "static_pages/projects"
+  #get "static_pages/about"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
