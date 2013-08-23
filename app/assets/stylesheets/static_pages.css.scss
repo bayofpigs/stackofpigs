@@ -3,14 +3,35 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* Home Page */
-.infopanel {
-  width: 100px;
-  height: 200px;
+#infopanel {
+  //height: 150px;
   position: fixed;
-  border-left: 1px solid black;
   margin-left: 100px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 10px; 
+  background-color: #757575;
 }
 
-.home-content {
+#infopanel h1 {
+  font-size: 25px;
+}
+
+#home-content {
   overflow: vertical;
 }
+
+#infopanel .gravatar {
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+}
+
+#gravatar-text {
+  margin: 5px;
+  float: right;
+}
+
