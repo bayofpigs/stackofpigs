@@ -1,6 +1,4 @@
-** StackOfPigs! **
+StackOfPigs!
+============
 
-This exciting new website from BayofPigs!
-...
-
-Not really, it's just another random homepage.
+This exciting new website from BayofPigs! Not really, actually, it's just another random homepage.
